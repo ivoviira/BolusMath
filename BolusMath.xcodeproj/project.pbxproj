@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5ECBC720D67B300069594E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBC620D67B300069594E /* AppDelegate.swift */; };
+		BC5ECBC920D67B300069594E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBC820D67B300069594E /* ViewController.swift */; };
+		BC5ECBCC20D67B300069594E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5ECBCA20D67B300069594E /* Main.storyboard */; };
+		BC5ECBCE20D67B320069594E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5ECBCD20D67B320069594E /* Assets.xcassets */; };
+		BC5ECBD120D67B320069594E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5ECBCF20D67B320069594E /* LaunchScreen.storyboard */; };
+		BC5ECBDC20D67B320069594E /* BolusMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBDB20D67B320069594E /* BolusMathTests.swift */; };
+		BC5ECBE720D67B320069594E /* BolusMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBE620D67B320069594E /* BolusMathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC5ECBD820D67B320069594E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5ECBBB20D67B300069594E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5ECBC220D67B300069594E;
+			remoteInfo = BolusMath;
+		};
+		BC5ECBE320D67B320069594E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5ECBBB20D67B300069594E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5ECBC220D67B300069594E;
+			remoteInfo = BolusMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC5ECBC320D67B300069594E /* BolusMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolusMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5ECBC620D67B300069594E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC5ECBC820D67B300069594E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC5ECBCB20D67B300069594E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC5ECBCD20D67B320069594E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC5ECBD020D67B320069594E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC5ECBD220D67B320069594E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5ECBD720D67B320069594E /* BolusMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolusMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5ECBDB20D67B320069594E /* BolusMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolusMathTests.swift; sourceTree = "<group>"; };
+		BC5ECBDD20D67B320069594E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5ECBE220D67B320069594E /* BolusMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolusMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5ECBE620D67B320069594E /* BolusMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolusMathUITests.swift; sourceTree = "<group>"; };
+		BC5ECBE820D67B320069594E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5ECBC020D67B300069594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5ECBD420D67B320069594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5ECBDF20D67B320069594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5ECBBA20D67B300069594E = {
+			isa = PBXGroup;
+			children = (
+				BC5ECBC520D67B300069594E /* BolusMath */,
+				BC5ECBDA20D67B320069594E /* BolusMathTests */,
+				BC5ECBE520D67B320069594E /* BolusMathUITests */,
+				BC5ECBC420D67B300069594E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5ECBC420D67B300069594E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5ECBC320D67B300069594E /* BolusMath.app */,
+				BC5ECBD720D67B320069594E /* BolusMathTests.xctest */,
+				BC5ECBE220D67B320069594E /* BolusMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5ECBC520D67B300069594E /* BolusMath */ = {
+			isa = PBXGroup;
+			children = (
+				BC5ECBC620D67B300069594E /* AppDelegate.swift */,
+				BC5ECBC820D67B300069594E /* ViewController.swift */,
+				BC5ECBCA20D67B300069594E /* Main.storyboard */,
+				BC5ECBCD20D67B320069594E /* Assets.xcassets */,
+				BC5ECBCF20D67B320069594E /* LaunchScreen.storyboard */,
+				BC5ECBD220D67B320069594E /* Info.plist */,
+			);
+			path = BolusMath;
+			sourceTree = "<group>";
+		};
+		BC5ECBDA20D67B320069594E /* BolusMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC5ECBDB20D67B320069594E /* BolusMathTests.swift */,
+				BC5ECBDD20D67B320069594E /* Info.plist */,
+			);
+			path = BolusMathTests;
+			sourceTree = "<group>";
+		};
+		BC5ECBE520D67B320069594E /* BolusMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC5ECBE620D67B320069594E /* BolusMathUITests.swift */,
+				BC5ECBE820D67B320069594E /* Info.plist */,
+			);
+			path = BolusMathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5ECBC220D67B300069594E /* BolusMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5ECBEB20D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMath" */;
+			buildPhases = (
+				BC5ECBBF20D67B300069594E /* Sources */,
+				BC5ECBC020D67B300069594E /* Frameworks */,
+				BC5ECBC120D67B300069594E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BolusMath;
+			productName = BolusMath;
+			productReference = BC5ECBC320D67B300069594E /* BolusMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC5ECBD620D67B320069594E /* BolusMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5ECBEE20D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMathTests" */;
+			buildPhases = (
+				BC5ECBD320D67B320069594E /* Sources */,
+				BC5ECBD420D67B320069594E /* Frameworks */,
+				BC5ECBD520D67B320069594E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5ECBD920D67B320069594E /* PBXTargetDependency */,
+			);
+			name = BolusMathTests;
+			productName = BolusMathTests;
+			productReference = BC5ECBD720D67B320069594E /* BolusMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC5ECBE120D67B320069594E /* BolusMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5ECBF120D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMathUITests" */;
+			buildPhases = (
+				BC5ECBDE20D67B320069594E /* Sources */,
+				BC5ECBDF20D67B320069594E /* Frameworks */,
+				BC5ECBE020D67B320069594E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5ECBE420D67B320069594E /* PBXTargetDependency */,
+			);
+			name = BolusMathUITests;
+			productName = BolusMathUITests;
+			productReference = BC5ECBE220D67B320069594E /* BolusMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5ECBBB20D67B300069594E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ivo Viira";
+				TargetAttributes = {
+					BC5ECBC220D67B300069594E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BC5ECBD620D67B320069594E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BC5ECBC220D67B300069594E;
+					};
+					BC5ECBE120D67B320069594E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BC5ECBC220D67B300069594E;
+					};
+				};
+			};
+			buildConfigurationList = BC5ECBBE20D67B300069594E /* Build configuration list for PBXProject "BolusMath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5ECBBA20D67B300069594E;
+			productRefGroup = BC5ECBC420D67B300069594E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5ECBC220D67B300069594E /* BolusMath */,
+				BC5ECBD620D67B320069594E /* BolusMathTests */,
+				BC5ECBE120D67B320069594E /* BolusMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5ECBC120D67B300069594E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5ECBD120D67B320069594E /* LaunchScreen.storyboard in Resources */,
+				BC5ECBCE20D67B320069594E /* Assets.xcassets in Resources */,
+				BC5ECBCC20D67B300069594E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5ECBD520D67B320069594E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5ECBE020D67B320069594E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5ECBBF20D67B300069594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5ECBC920D67B300069594E /* ViewController.swift in Sources */,
+				BC5ECBC720D67B300069594E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5ECBD320D67B320069594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5ECBDC20D67B320069594E /* BolusMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5ECBDE20D67B320069594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5ECBE720D67B320069594E /* BolusMathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5ECBD920D67B320069594E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5ECBC220D67B300069594E /* BolusMath */;
+			targetProxy = BC5ECBD820D67B320069594E /* PBXContainerItemProxy */;
+		};
+		BC5ECBE420D67B320069594E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5ECBC220D67B300069594E /* BolusMath */;
+			targetProxy = BC5ECBE320D67B320069594E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC5ECBCA20D67B300069594E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5ECBCB20D67B300069594E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC5ECBCF20D67B320069594E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5ECBD020D67B320069594E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC5ECBE920D67B320069594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5ECBEA20D67B320069594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5ECBEC20D67B320069594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V92A5Q5LK;
+				INFOPLIST_FILE = BolusMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.BolusMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5ECBED20D67B320069594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V92A5Q5LK;
+				INFOPLIST_FILE = BolusMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.BolusMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC5ECBEF20D67B320069594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V92A5Q5LK;
+				INFOPLIST_FILE = BolusMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.BolusMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BolusMath.app/BolusMath";
+			};
+			name = Debug;
+		};
+		BC5ECBF020D67B320069594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V92A5Q5LK;
+				INFOPLIST_FILE = BolusMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.BolusMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BolusMath.app/BolusMath";
+			};
+			name = Release;
+		};
+		BC5ECBF220D67B320069594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V92A5Q5LK;
+				INFOPLIST_FILE = BolusMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.BolusMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BolusMath;
+			};
+			name = Debug;
+		};
+		BC5ECBF320D67B320069594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V92A5Q5LK;
+				INFOPLIST_FILE = BolusMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.BolusMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BolusMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5ECBBE20D67B300069594E /* Build configuration list for PBXProject "BolusMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5ECBE920D67B320069594E /* Debug */,
+				BC5ECBEA20D67B320069594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5ECBEB20D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5ECBEC20D67B320069594E /* Debug */,
+				BC5ECBED20D67B320069594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5ECBEE20D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5ECBEF20D67B320069594E /* Debug */,
+				BC5ECBF020D67B320069594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5ECBF120D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5ECBF220D67B320069594E /* Debug */,
+				BC5ECBF320D67B320069594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5ECBBB20D67B300069594E /* Project object */;
+}
