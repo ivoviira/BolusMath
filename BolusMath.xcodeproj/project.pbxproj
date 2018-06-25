@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC13F75B20D994740078B38F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC13F75A20D994740078B38F /* HealthKit.framework */; };
+		BC13F75F20D999BF0078B38F /* HealthKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13F75E20D999BF0078B38F /* HealthKitHelper.swift */; };
 		BC5ECBC720D67B300069594E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBC620D67B300069594E /* AppDelegate.swift */; };
 		BC5ECBC920D67B300069594E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBC820D67B300069594E /* ViewController.swift */; };
 		BC5ECBCC20D67B300069594E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5ECBCA20D67B300069594E /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		BC5ECBD120D67B320069594E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5ECBCF20D67B320069594E /* LaunchScreen.storyboard */; };
 		BC5ECBDC20D67B320069594E /* BolusMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBDB20D67B320069594E /* BolusMathTests.swift */; };
 		BC5ECBE720D67B320069594E /* BolusMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5ECBE620D67B320069594E /* BolusMathUITests.swift */; };
+		EE10A1FF1DE2978D665E451E /* Pods_BolusMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101A501F1EBA180A5B9F45F2 /* Pods_BolusMath.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03472DD54B56884F7CDDB8D3 /* Pods-BolusMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BolusMath.release.xcconfig"; path = "Pods/Target Support Files/Pods-BolusMath/Pods-BolusMath.release.xcconfig"; sourceTree = "<group>"; };
+		101A501F1EBA180A5B9F45F2 /* Pods_BolusMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BolusMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC13F75820D994740078B38F /* BolusMath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BolusMath.entitlements; sourceTree = "<group>"; };
+		BC13F75A20D994740078B38F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		BC13F75E20D999BF0078B38F /* HealthKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitHelper.swift; sourceTree = "<group>"; };
 		BC5ECBC320D67B300069594E /* BolusMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolusMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5ECBC620D67B300069594E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC5ECBC820D67B300069594E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 		BC5ECBE220D67B320069594E /* BolusMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolusMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5ECBE620D67B320069594E /* BolusMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolusMathUITests.swift; sourceTree = "<group>"; };
 		BC5ECBE820D67B320069594E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA15D3D0EFAF4172D3E6AE3 /* Pods-BolusMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BolusMath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BolusMath/Pods-BolusMath.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC13F75B20D994740078B38F /* HealthKit.framework in Frameworks */,
+				EE10A1FF1DE2978D665E451E /* Pods_BolusMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC13F75920D994740078B38F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC13F75A20D994740078B38F /* HealthKit.framework */,
+				101A501F1EBA180A5B9F45F2 /* Pods_BolusMath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC5ECBBA20D67B300069594E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				BC5ECBDA20D67B320069594E /* BolusMathTests */,
 				BC5ECBE520D67B320069594E /* BolusMathUITests */,
 				BC5ECBC420D67B300069594E /* Products */,
+				BC13F75920D994740078B38F /* Frameworks */,
+				D2FB3884FC0750E987EFEB19 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +119,14 @@
 		BC5ECBC520D67B300069594E /* BolusMath */ = {
 			isa = PBXGroup;
 			children = (
+				BC13F75820D994740078B38F /* BolusMath.entitlements */,
 				BC5ECBC620D67B300069594E /* AppDelegate.swift */,
 				BC5ECBC820D67B300069594E /* ViewController.swift */,
 				BC5ECBCA20D67B300069594E /* Main.storyboard */,
 				BC5ECBCD20D67B320069594E /* Assets.xcassets */,
 				BC5ECBCF20D67B320069594E /* LaunchScreen.storyboard */,
 				BC5ECBD220D67B320069594E /* Info.plist */,
+				BC13F75E20D999BF0078B38F /* HealthKitHelper.swift */,
 			);
 			path = BolusMath;
 			sourceTree = "<group>";
@@ -125,6 +149,15 @@
 			path = BolusMathUITests;
 			sourceTree = "<group>";
 		};
+		D2FB3884FC0750E987EFEB19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDA15D3D0EFAF4172D3E6AE3 /* Pods-BolusMath.debug.xcconfig */,
+				03472DD54B56884F7CDDB8D3 /* Pods-BolusMath.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5ECBEB20D67B320069594E /* Build configuration list for PBXNativeTarget "BolusMath" */;
 			buildPhases = (
+				B2AFE0DD14E07A59BC8D0D2E /* [CP] Check Pods Manifest.lock */,
 				BC5ECBBF20D67B300069594E /* Sources */,
 				BC5ECBC020D67B300069594E /* Frameworks */,
 				BC5ECBC120D67B300069594E /* Resources */,
+				BD091628F2616F18EF7DE5E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +228,11 @@
 				TargetAttributes = {
 					BC5ECBC220D67B300069594E = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					BC5ECBD620D67B320069594E = {
 						CreatedOnToolsVersion = 9.4;
@@ -251,12 +291,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B2AFE0DD14E07A59BC8D0D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BolusMath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD091628F2616F18EF7DE5E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BolusMath/Pods-BolusMath-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Amplitude-iOS/Amplitude_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplitude_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BolusMath/Pods-BolusMath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC5ECBBF20D67B300069594E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC5ECBC920D67B300069594E /* ViewController.swift in Sources */,
+				BC13F75F20D999BF0078B38F /* HealthKitHelper.swift in Sources */,
 				BC5ECBC720D67B300069594E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +508,10 @@
 		};
 		BC5ECBEC20D67B320069594E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA15D3D0EFAF4172D3E6AE3 /* Pods-BolusMath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BolusMath/BolusMath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V92A5Q5LK;
 				INFOPLIST_FILE = BolusMath/Info.plist;
@@ -446,8 +528,10 @@
 		};
 		BC5ECBED20D67B320069594E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03472DD54B56884F7CDDB8D3 /* Pods-BolusMath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BolusMath/BolusMath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V92A5Q5LK;
 				INFOPLIST_FILE = BolusMath/Info.plist;
